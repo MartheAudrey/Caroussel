@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slideshow{
+    position: relative;
+    width: 780px;
+    height: 780px;
+    background: #a1bfdd;
+}
+
+.imageSlide{
+    display: none;
+}
+img{
+    margin: auto;
+    display: block;
+    width: 500px;
+    height: 500px;
+}
+.slider-btn{
+    cursor: pointer;
+    color: black;
+    border-radius: 0 3px 3px 0;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    font-weight: bold;
+    font-size: 30px;
+    user-select: none;
+    transition: 0.6s ease;
+}
+.slider-btn:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: rgb(255, 253, 253);
+
+}
+
+.previous{
+    left: 2%;
+}
+
+.next{
+    right: 2%;
+}
